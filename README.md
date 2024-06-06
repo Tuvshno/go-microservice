@@ -3,7 +3,7 @@
 This project is a practice implementation of a microservice that fetches cryptocurrency prices.
 It is designed to demonstrate my understanding and skills in building microservices, utilizing
 design patterns such as the Decorator Pattern, and separating services from business logic.
-The microservice was built in Go and includes functionalities for logging and metrics, aJSON API
+The microservice was built in Go and includes functionalities for logging and metrics, a JSON API
 for fetching prices. and a client.
 
 ### Learning outcomes
@@ -12,6 +12,7 @@ for fetching prices. and a client.
 - Utilize Go Contexts to pass data
 - Design and Build JSON API
 
+### Run the project
 1. Build the image
 ` docker build -t pricefetcher-image .`
 
